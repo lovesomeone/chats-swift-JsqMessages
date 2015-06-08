@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66E0CDF31B25DE4F00784C1F /* ReaMe.md in Sources */ = {isa = PBXBuildFile; fileRef = 66E0CDF21B25DE4F00784C1F /* ReaMe.md */; };
 		B007707F1B21761A004533B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B007707E1B21761A004533B5 /* AppDelegate.swift */; };
 		B00770811B21761A004533B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00770801B21761A004533B5 /* ViewController.swift */; };
 		B00770841B21761A004533B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00770821B21761A004533B5 /* Main.storyboard */; };
@@ -72,6 +73,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		66E0CDF21B25DE4F00784C1F /* ReaMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ReaMe.md; sourceTree = "<group>"; };
 		B00770791B21761A004533B5 /* chats-swift-JsqMessages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "chats-swift-JsqMessages.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B007707D1B21761A004533B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B007707E1B21761A004533B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -195,6 +197,7 @@
 		B00770701B21761A004533B5 = {
 			isa = PBXGroup;
 			children = (
+				66E0CDF21B25DE4F00784C1F /* ReaMe.md */,
 				B00771A01B218172004533B5 /* JSQMessagesViewController */,
 				B00771371B217BFC004533B5 /* JSQSystemSoundPlayer */,
 				B007707B1B21761A004533B5 /* chats-swift-JsqMessages */,
@@ -550,6 +553,7 @@
 				B00772021B218172004533B5 /* UIColor+JSQMessages.m in Sources */,
 				B00772211B218172004533B5 /* JSQMessagesLabel.m in Sources */,
 				B007721F1B218172004533B5 /* JSQMessagesComposerTextView.m in Sources */,
+				66E0CDF31B25DE4F00784C1F /* ReaMe.md in Sources */,
 				B00771FF1B218172004533B5 /* JSQSystemSoundPlayer+JSQMessages.m in Sources */,
 				B00772151B218172004533B5 /* JSQMessagesBubbleImage.m in Sources */,
 				B00772061B218172004533B5 /* JSQMessagesKeyboardController.m in Sources */,
