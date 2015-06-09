@@ -60,6 +60,7 @@
 		B00772261B218172004533B5 /* JSQMessagesToolbarContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B00771FA1B218172004533B5 /* JSQMessagesToolbarContentView.xib */; };
 		B00772271B218172004533B5 /* JSQMessagesTypingIndicatorFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = B00771FC1B218172004533B5 /* JSQMessagesTypingIndicatorFooterView.m */; };
 		B00772281B218172004533B5 /* JSQMessagesTypingIndicatorFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B00771FD1B218172004533B5 /* JSQMessagesTypingIndicatorFooterView.xib */; };
+		B0ED5D7F1B26CDB600200EB0 /* DemoModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0ED5D7E1B26CDB600200EB0 /* DemoModelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -174,6 +175,7 @@
 		B00771FB1B218172004533B5 /* JSQMessagesTypingIndicatorFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSQMessagesTypingIndicatorFooterView.h; sourceTree = "<group>"; };
 		B00771FC1B218172004533B5 /* JSQMessagesTypingIndicatorFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSQMessagesTypingIndicatorFooterView.m; sourceTree = "<group>"; };
 		B00771FD1B218172004533B5 /* JSQMessagesTypingIndicatorFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSQMessagesTypingIndicatorFooterView.xib; sourceTree = "<group>"; };
+		B0ED5D7E1B26CDB600200EB0 /* DemoModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoModelData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +220,7 @@
 		B007707B1B21761A004533B5 /* chats-swift-JsqMessages */ = {
 			isa = PBXGroup;
 			children = (
+				B0ED5D7B1B26CB1A00200EB0 /* model */,
 				B007707E1B21761A004533B5 /* AppDelegate.swift */,
 				B00770801B21761A004533B5 /* ViewController.swift */,
 				B00770821B21761A004533B5 /* Main.storyboard */,
@@ -413,6 +416,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		B0ED5D7B1B26CB1A00200EB0 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				B0ED5D7E1B26CDB600200EB0 /* DemoModelData.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -521,6 +532,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B007720F1B218172004533B5 /* JSQMessagesCollectionViewFlowLayoutInvalidationContext.m in Sources */,
+				B0ED5D7F1B26CDB600200EB0 /* DemoModelData.swift in Sources */,
 				B00772221B218172004533B5 /* JSQMessagesLoadEarlierHeaderView.m in Sources */,
 				B00772201B218172004533B5 /* JSQMessagesInputToolbar.m in Sources */,
 				B00772241B218172004533B5 /* JSQMessagesMediaPlaceholderView.m in Sources */,
