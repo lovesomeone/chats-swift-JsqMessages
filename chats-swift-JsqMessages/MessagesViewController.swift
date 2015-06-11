@@ -63,6 +63,7 @@ class MessagesViewController: JSQMessagesViewController {
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
+        
       
     }
     
